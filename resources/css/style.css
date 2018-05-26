@@ -227,10 +227,19 @@ header .mobile {
   background-color: white;
 }
 
+.center {
+  text-align: center;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
 }
 
 .feature h2 {
@@ -298,6 +307,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
